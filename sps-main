@@ -1,0 +1,19 @@
+Title: Ambient-Powered Indistinguishable Single Photon Source via Stochastic Resonance in Graphene Energy Harvester Spirals
+
+Abstract: We propose a novel, self-powered architecture for a Single Photon Source (SPS) capable of operating via ambient thermal fluctuations without external power. The device integrates a Golden Ratio spiral of Graphene Energy Harvesters (GEH) to exploit Stochastic Resonance, enabling broadband harvesting of Brownian motion. This harvested energy drives a monolithically integrated Graphene Quantum Dot (GQD) situated within a Photonic Crystal cavity. The architecture utilizes 3D vertical integration to mechanically decouple the harvesting layer from the optical emission layer, ensuring the generation of high-purity, indistinguishable photons suitable for quantum information processing.
+
+1. Introduction Current Single Photon Sources rely on external lasers or bulky power supplies. We present a theoretical framework for a "Zero-Power" SPS driven by the stochastic thermodynamics of freestanding graphene membranes.
+
+2. Architecture & Design The device consists of a three-layer vertical stack:
+
+2.1 The Broadband Harvesting Layer (Bottom) An array of freestanding graphene membranes is arranged in a Logarithmic (Golden) Spiral. Unlike uniform arrays, the variable loop size of the spiral allows for the harvesting of a continuous spectrum of thermal frequencies, maximizing power density via Stochastic Resonance. Current density is geometrically amplified via radial acceleration toward the spiral center.
+
+2.2 The Storage Interposer (Middle) A central Metal-Insulator-Metal (MIM) capacitor integrates the rectified current from the spiral. The capacitor is tuned to the breakdown voltage of the quantum emitter, acting as a relaxation oscillator (Integrate-and-Fire).
+
+2.3 The Resonant Optical Layer (Top) A Graphene Quantum Dot (GQD) is defined via a geometric constriction (Bowtie) at the stack's zenith. To ensure photon indistinguishability, the GQD is surrounded by a Photonic Crystal (Bullseye) structure. This cavity leverages the Purcell Effect to enhance emission rate and enforce spectral purity.
+
+3. Fabrication Method: The OAM Screw We propose a maskless lithography technique using a Femtosecond Vortex Laser carrying Orbital Angular Momentum (OAM). This "Optical Archimedes Screw" allows for the simultaneous subtractive patterning of the graphene features and the in-situ extraction of ablation debris, preventing contamination of the quantum dot.
+
+4. Conclusion This architecture represents a viable pathway for "Set-and-Forget" quantum hardware, transforming ambient entropy into coherent quantum information.
+
+License: This design is released under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W).
